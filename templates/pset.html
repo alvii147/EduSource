@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block nav %}{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+<div style="width: 40%; margin: 0 auto;">
+    <p style="color: lightblue; font-size: 14px; padding-top: 25px;">
+        Posted by: {{userfname}} {{userlname}}
+    </p>
+    <p style="color: white; font-family: 'Ink Free'; font-size: 25px; padding-top: 0px;">
+        <span style = "color: rgb(204, 164, 231);">{{course}}</span> - 
+        <span style = "color: rgb(236, 142, 156);">{{name}}</span>
+    </p>
+    <p style="color: white; font-family: 'Ink Free'; font-size: 18px; padding-top: 5px;">
+        {{desc}}
+    </p>
+    {% for q in questions %}
+    <p>
+        <span style = "color: rgb(235, 169, 28); font-family: Georgia; font-size: 21px; padding-top: 0px;">
+            <br>Q: {{q.description}}<br>
+        </span>
+        {% for ans in q.answers %}
+        <span style = "color: rgb(130, 207, 28); font-family: 'Ink Free'; font-size: 18px; padding-top: 0px;">
+            <br>{{ans.ans}}&nbsp;&nbsp;<a class = "mybutton3" href = "answer{{ans.id}}/">Kudos ({{ans.kudos}}) +</a><br>
+        </span>
+        {% endfor %}
+        <form action="question{{q.id}}/" method="post">
+            <textarea id="an" name="an" rows="1" cols="80" style="font-size: 16px; white-space: nowrap" placeholder="Your Answer"></textarea><br><br>
+            <button class = "mybutton2" type="submit">Add Answer +</button>
+        </form>
+    </p>
+    {% endfor %}
+    <form action="#" method="post">
+        <textarea id="ds" name="ds" rows="2" cols="112" style="font-size: 16px; white-space: nowrap" placeholder="New Question"></textarea><br><br>
+        <button class = "mybutton" type="submit">Add Question +</button><br><br>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,175 @@
+a.nav-link {
+    color: white !important;
+}
+
+a.nav-link:hover {
+    color: rgb(235, 169, 28) !important;
+}
+
+.mybutton {
+    text-decoration: none !important;
+    padding: 5px;
+    color: rgb(235, 169, 28);
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(235, 169, 28);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.mybutton:hover {
+    color: rgb(26, 26, 26);
+    background-color: rgb(235, 169, 28);
+}
+
+.mybutton2 {
+    text-decoration: none !important;
+    padding: 5px;
+    color: rgb(130, 207, 28);
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(130, 207, 28);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.mybutton2:hover {
+    color: rgb(26, 26, 26);
+    background-color: rgb(130, 207, 28);
+}
+
+.mybutton3 {
+    text-decoration: none !important;
+    padding: 5px;
+    color: rgb(87, 155, 219);
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(87, 155, 219);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.mybutton3:hover {
+    color: rgb(26, 26, 26);
+    background-color: rgb(87, 155, 219);
+}
+
+.mainButton1 {
+    position: relative;
+    width: 100%;
+	box-shadow:inset 0px 140px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+    border:1px solid #241d13;
+    border-radius: 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Ink Free";
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 60px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #7a2a1d;
+    top: 0px;
+    transition: 0.3s;
+}
+.mainButton1:hover {
+    background-color:#b34332;
+    position:relative;
+	top:8px;
+}
+
+.mainButton1:active {
+	position:relative;
+	top:10px;
+}
+
+.mainButton2 {
+    position: relative;
+    width: 100%;
+	box-shadow:inset 0px 140px 0px -15px #48ad55;
+	background-color:#3d8147;
+    border:1px solid #241d13;
+    border-radius: 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Ink Free";
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 60px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #1c4622;
+    top: 0px;
+    transition: 0.3s;
+}
+.mainButton2:hover {
+    background-color:#41974b;
+    position:relative;
+	top:8px;
+}
+
+.mainButton2:active {
+	position:relative;
+	top:10px;
+}
+
+.mainButton3 {
+    position: relative;
+    width: 100%;
+	box-shadow:inset 0px 140px 0px -15px #5e80b4;
+	background-color:#5272a3;
+    border:1px solid #241d13;
+    border-radius: 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Ink Free";
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 60px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #314a70;
+    top: 0px;
+    transition: 0.3s;
+}
+.mainButton3:hover {
+    background-color:#587cb1;
+    position:relative;
+	top:8px;
+}
+
+.mainButton3:active {
+	position:relative;
+	top:10px;
+}
+
+.mainButton4 {
+    position: relative;
+    width: 100%;
+	box-shadow:inset 0px 140px 0px -15px #e67518;
+	background-color:#ca6919;
+    border:1px solid #241d13;
+    border-radius: 10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Ink Free";
+	font-size:35px;
+	font-weight:bold;
+	padding:30px 60px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #d66a12;
+    top: 0px;
+    transition: 0.3s;
+}
+.mainButton4:hover {
+    background-color:#d36b16;
+    position:relative;
+	top:8px;
+}
+
+.mainButton4:active {
+	position:relative;
+	top:10px;
+}

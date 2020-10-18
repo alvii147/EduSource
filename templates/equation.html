@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block nav %}{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+<div style="width: 20%; margin: 0 auto;">
+  <form method="POST" action="" enctype="multipart/form-data">
+    <p><input class="mybutton" type="file" name="file"></p>
+    <p><input class="mybutton" type="submit" value="Submit"></p>
+  </form>
+  <img src="{{ url_for('static', filename='img.jpg') }}" alt="img" style = "width: 300px; height: 300px;"><br><br>
+  <p>
+    <span style = "color: rgb(235, 169, 28); font-family: Georgia; font-size: 21px; padding-top: 0px;">
+        Equation:  {{eq}}<br>
+        Field(s):  {{fi}}<br>
+        Description:  {{ds}}<br>
+    </span>
+  </p>
+</div>
+{% endblock %}

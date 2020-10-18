@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block nav %}
+<li class="nav-item active">
+    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">My Equations</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      My Problem Sets
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        {% for pset in psets %}
+        <a class="dropdown-item" href="pset{{pset.id}}">{{pset.name}}</a>
+        {% endfor %}
+    </div>
+  </li>
+</ul>
+<a class="nav-link" >{{fname}} {{lname}}</a>
+{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+<div class = "row" style = "width: 50%; margin: 0 auto; padding-top: 50px;">
+    <div class = "column" style = "width: 55%;">
+        <a href = "newpset/"><button class = "mainButton1">Create Problem Set<br><image src = "{{ url_for('static', filename='pseticon.png')}}" alt = "lightlogo" width = 120 height = 135></button></a>
+    </div>
+    <div class = "column" style = "padding-left: 50px; width: 45%;">
+        <p style = "font-family: 'Ink Free'; font-size: 25px; color: white;">
+            • Create your own Problem Set<br>
+            • Invite classmates to collaborate<br>
+            • Crowdsource answers
+        </p>
+    </div>
+</div>
+<div class = "row" style = "width: 55%; margin: 0 auto; padding-top: 50px;">
+    <div class = "column" style = "padding-left: 50px; width: 45%;">
+        <p style = "font-family: 'Ink Free'; font-size: 25px; color: white;">
+            • Recognize and identify scientific equations from notes<br>
+            • Add to your collection of equations
+        </p>
+    </div>
+    <div class = "column" style = "width: 55%;">
+        <a href = "equation/"><button class = "mainButton2">Try Equation Tool<br><image src = "{{ url_for('static', filename='sigmaicon.png')}}" alt = "lightlogo" width = 120 height = 135></button></a>
+    </div>
+</div>
+<div class = "row" style = "width: 50%; margin: 0 auto; padding-top: 50px;">
+    <div class = "column" style = "width: 55%;">
+        <button class = "mainButton3">Discussion Forum<br><image src = "{{ url_for('static', filename='forumicon.png')}}" alt = "lightlogo" width = 135 height = 135></button>
+    </div>
+    <div class = "column" style = "padding-left: 50px; width: 45%;">
+        <p style = "font-family: 'Ink Free'; font-size: 25px; color: white;">
+            • Start discussion thread<br>
+            • Communicate with other students about questions, course deliverables, and more!<br>
+        </p>
+    </div>
+</div>
+<div class = "row" style = "width: 55%; margin: 0 auto; padding-top: 50px; padding-bottom: 80px;">
+    <div class = "column" style = "padding-left: 50px; width: 45%;">
+        <p style = "font-family: 'Ink Free'; font-size: 25px; color: white;">
+            • Explore and enroll in courses in your university<br>
+        </p>
+    </div>
+    <div class = "column" style = "width: 55%;">
+        <button class = "mainButton4">Explore Courses<br><image src = "{{ url_for('static', filename='haticon.png')}}" alt = "lightlogo" width = 170 height = 135></button>
+    </div>
+</div>
+{% endblock %}

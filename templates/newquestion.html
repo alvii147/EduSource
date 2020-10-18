@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block nav %}{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+<div style="width: 40%; margin: 0 auto;">
+    <p style="color: white; font-size: 25px; padding-top: 25px;">
+        New Question
+    </p>
+    <form action="#" method="post">
+        <label for="ds" style="color: white; font-size: 16px;">Description:</label><br>
+        <textarea id="ds" name="ds" rows="5" cols="112" style="font-size: 16px; white-space: nowrap"></textarea><br><br>
+        <button class = mybutton type="submit">Create</button>
+    </form>
+</div>
+{% endblock %}
