@@ -1,5 +1,5 @@
 # Hackrithmitic 2020 (Best Use of Google Cloud), HackTheU 2020 (Best Use of Google Cloud)
-[![Video_Thumbnail](http://i3.ytimg.com/vi/-2_g7Y_6jL8/maxresdefault.jpg)](https://youtu.be/-2_g7Y_6jL8){:target="_blank"}
+[![Video_Thumbnail](http://i3.ytimg.com/vi/-2_g7Y_6jL8/maxresdefault.jpg)](https://youtu.be/-2_g7Y_6jL8)
 ## Inspiration
 The COVID-19 pandemic has affected educational systems worldwide, leading to the near-total closures of schools, universities and colleges. Most governments around the world have temporarily closed educational institutions in an attempt to reduce the spread of COVID-19. As of 30 September 2020, approximately **1.077 billion** learners are currently affected due to school closures in response to the pandemic. According to UNICEF monitoring, **53 countries** are currently implementing nationwide closures and **27** are implementing local closures, impacting about **61.6 percent** of the world's student population. **72 countries'** schools are currently open.
 
