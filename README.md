@@ -3,6 +3,7 @@
 The COVID-19 pandemic has affected educational systems worldwide, leading to the near-total closures of schools, universities and colleges. Most governments around the world have temporarily closed educational institutions in an attempt to reduce the spread of COVID-19. As of 30 September 2020, approximately **1.077 billion** learners are currently affected due to school closures in response to the pandemic. According to UNICEF monitoring, **53 countries** are currently implementing nationwide closures and **27** are implementing local closures, impacting about **61.6 percent** of the world's student population. **72 countries'** schools are currently open.
 
 ![data](https://assets.weforum.org/editor/35ZTVoUUKZ8R135jMCnLB3YirWPKRy49J6fKpf7q2ek.jpeg)
+*Statista,* Niall McCarthy (2020). *[COVID-19's Staggering Impact On Global Education](https://www.statista.com/chart/21224/learners-impacted-by-national-school-closures/)*
 
 A crucial aspect of schoolwork that's missing due to the pandemic is group studying. Effective study groups can help students learn course material in a deeper, more concrete way. Solving challenging problems together allow students to tackle their courseload better and view the material from various different perspectives. Due to the pandemic, it is difficult to tackle problems and compare answers with each other as efficiently.
 
