@@ -18,7 +18,7 @@ Using ***EduSource***, students may also upload pictures of their handwritten no
 Click image below for demo video (or click [here](https://youtu.be/-2_g7Y_6jL8))
 [![Video_Thumbnail](http://i3.ytimg.com/vi/-2_g7Y_6jL8/maxresdefault.jpg)](https://youtu.be/-2_g7Y_6jL8)
 ## How I built it
-The web application is built using **Flask** in **Python**, along with **HTML** and **CSS** for markup and styling. **Flask SQLAlchemy** is used as a database to store information about Users, Problem Sets, Questions and Answers. The Equation Tool is built using the **Google Cloud Vision** Client Library for Python. This is done by implementing **OCR (Optical Character Recognition)** to identify equations.
+The web application is built using **Flask** in **Python**, along with **HTML** and **CSS** for markup and styling. **Flask SQLAlchemy** is used as a database to store information about Users, Problem Sets, Questions and Answers. The Equation Tool is built using the **Google Cloud Vision** Client Library for Python. This is done by implementing OCR (Optical Character Recognition) to identify equations.
 ## Challenges I ran into
 This is one of the first few websites I have built. The most challenging part was visualizing all the database components and their relationships with each other.
 ## Accomplishments that I'm proud of and what I learned
